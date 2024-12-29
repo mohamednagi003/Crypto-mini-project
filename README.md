@@ -2,8 +2,8 @@
 ## 1. Introduction
 The objective of this project is to design and implement a secure communication system that ensures confidentiality, integrity, authentication, and non-repudiation. The system leverages a combination of symmetric and asymmetric cryptographic techniques to protect sensitive data during transmission. Additionally, machine learning-based anomaly detection is integrated to monitor communication patterns and detect potential security breaches, further strengthening the system’s ability to prevent unauthorized access or tampering.
 
-2. Cryptographic Design Choices
-2.1. Symmetric Encryption: AES (Advanced Encryption Standard)
+## 2. Cryptographic Design Choices
+### 2.1. Symmetric Encryption: AES (Advanced Encryption Standard)
 Reason for Choice:
 
 AES is one of the most widely used and trusted symmetric encryption algorithms due to its efficiency and strength. It is highly resistant to brute-force attacks, especially with key sizes of 128, 192, or 256 bits.
@@ -12,7 +12,7 @@ Security Guarantees:
 
 Confidentiality: AES ensures that the data is unreadable to anyone except those with the decryption key.
 Performance: AES is fast and efficient, which is critical for real-time communication.
-2.2. Asymmetric Encryption: RSA (Rivest-Shamir-Adleman)
+### 2.2. Asymmetric Encryption: RSA (Rivest-Shamir-Adleman)
 Reason for Choice:
 
 RSA is a widely adopted asymmetric encryption algorithm that supports key exchange, digital signatures, and data encryption.
